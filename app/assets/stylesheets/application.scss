@@ -1,1 +1,51 @@
 @import "bootstrap";
+
+body {
+  background-color: #fafafa;
+  font-size: 14px;
+  color: #262626;
+}
+.navbar {
+  background-color: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.0975);
+}
+
+.core-sprite {
+  background-image: image-url("color_1.png");
+  background-size: 405px 379px;
+  background-repeat: no-repeat;
+}
+
+.navbar-brand {
+  background-position: -190px 0;
+  height: 40px;
+  width: 190px;
+}
+
+.hide-text {
+  display: block;
+  overflow: hidden;
+  text-indent: 110%;
+  white-space: nowrap;
+}
+
+.explore-icon {
+  background-position: -280px -350px;
+  height: 28px;
+  width: 28px;
+}
+
+.notification-icon {
+  background-position: -140px -350px;
+  height: 28px;
+  width: 28px;
+}
+.profile-icon {
+  background-position: -85px -350px;
+  height: 28px;
+  width: 28px;
+}
+
+.nav-item:not(:first-child) {
+  margin-left: 30px;
+}
