@@ -68,3 +68,9 @@ gem 'bootstrap', '~> 4.0.0'
 gem 'jquery-rails'
 
 gem 'webpacker'
+
+gem 'toastr-rails'
+
+gem 'omniauth', '~> 1.8', '>= 1.8.1'
+
+gem 'omniauth-twitter', '~> 1.4'
