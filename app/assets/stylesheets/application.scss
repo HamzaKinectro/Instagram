@@ -277,3 +277,64 @@ footer .nav-item {
   display: inline-block;
   margin: 2px;
 }
+
+.post {
+  .card-header {
+    background-color: white;
+  }
+
+  .card-body {
+    padding: 5px 16px 5px;
+  }
+
+  .actions {
+    margin: 12px 0;
+  }
+
+  .post-time {
+    margin-top: 5px;
+    font-size: 10px;
+  }
+
+  .comment-input {
+    font-size: 14px;
+    resize: none;
+  }
+
+  .previous-btn {
+    background-position: -281px -280px;
+    height: 30px;
+    opacity: 1;
+    width: 30px;
+  }
+
+  .next-btn {
+    background-position: -345px 0px;
+    height: 30px;
+    opacity: 1;
+    width: 30px;
+  }
+}
+
+.love {
+  background-position: -136px -354px;
+  height: 25px;
+  width: 30px;
+}
+
+.loved {
+  @extend .love;
+  background-position: -282px -236px;
+}
+
+.comment {
+  @extend .love;
+  background-position: -110px -354px;
+  margin-left: 10px;
+}
+
+.bookmark {
+  @extend .love;
+  background-position: -249px -353px;
+  margin-left: 472px;
+}
